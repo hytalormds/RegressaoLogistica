@@ -1,6 +1,6 @@
 # Modelo de Regressão Logística para Classificação de Dígitos MNIST
 
-Este repositório contém um exemplo simples de implementação de um modelo de regressão logística usando TensorFlow para classificar dígitos manuscritos do conjunto de dados MNIST. O código está bem comentado para facilitar a compreensão e a adaptação para outros projetos.
+Este repositório contém um exemplo simples de implementação de um modelo de regressão logística usando TensorFlow para classificar dígitos manuscritos do conjunto de dados MNIST. 
 
 ## Pré-requisitos
 
@@ -14,10 +14,10 @@ pip install tensorflow tqdm
 
 1. Baixe ou clone este repositório em seu ambiente local.
 2. Abra um terminal e navegue até o diretório do projeto.
-3. Execute o script Python `logistic_regression_mnist.py`.
+3. Execute o script Python `RegressaoLogistica.py`.
 
 ```bash
-python logistic_regression_mnist.py
+python RegressaoLogistica.py
 ```
 
 O modelo será treinado no conjunto de dados MNIST, e a precisão do teste será exibida no final do treinamento.
@@ -42,4 +42,5 @@ O código está dividido em seções claras para facilitar a compreensão:
 
 ## Nota
 
-A precisão de teste pode variar devido à aleatoriedade no embaralhamento dos dados de treinamento.
+ - A precisão de teste pode variar devido à aleatoriedade no embaralhamento dos dados de treinamento.
+ - Este código foi ensinado em um laboratório fornecido pela Duke University pela plataforma Coursera
